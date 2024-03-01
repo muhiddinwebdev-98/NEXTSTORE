@@ -1,0 +1,18 @@
+.decoration {
+    padding-bottom: 60px;
+}
+
+.carusel-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.circle-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+
+}

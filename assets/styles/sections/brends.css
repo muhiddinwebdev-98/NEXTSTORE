@@ -1,0 +1,39 @@
+.brends {
+    margin-bottom: 90px;
+}
+
+.brends_flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+    column-gap: 15px;
+    margin-bottom: 10px;
+
+}
+
+.into_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    width: 188px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #FCFFFC;
+}
+
+.brends_flexx {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.into_box:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: all 02s ease-out;
+}
+
+.brend_title {
+    font-size: 28px;
+    line-height: 33.6px;
+    color: #1E1E1E;
+}
